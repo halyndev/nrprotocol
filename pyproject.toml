@@ -1,0 +1,30 @@
+[project]
+name = "nrprotocol"
+version = "1.0.0"
+description = "NRP — Node Reach Protocol. 6 rules no AI can break."
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Elmadani SALKA", email = "contact@nrprotocol.dev"}]
+readme = "README.md"
+keywords = ["ai", "robotics", "iot", "protocol", "safety", "nrp", "agents", "edge"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: System :: Networking",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://nrprotocol.dev"
+Repository = "https://github.com/halyndev/nrprotocol"
+Issues = "https://github.com/halyndev/nrprotocol/issues"
+Documentation = "https://nrprotocol.dev/docs"
+
+[tool.setuptools.packages.find]
+where = ["sdk/python"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
