@@ -74,7 +74,7 @@ nrp://scope/kind/name
 | name | `arm-7`, `web-01`, `temp-south` | Instance name |
 
 ```python
-from nrp import NRPId
+from nrp import NRPId  # pip install nrprotocol
 
 nid = NRPId.parse("nrp://factory/robot/arm-7")
 print(nid.scope)   # factory
